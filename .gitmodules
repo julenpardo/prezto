@@ -22,3 +22,6 @@
 [submodule "modules/fasd/external"]
 	path = modules/fasd/external
 	url = https://github.com/clvv/fasd.git
+[submodule "modules/prompt/external/julen-pure"]
+	path = modules/prompt/external/julen-pure
+	url = https://github.com/julenpardo/pure
