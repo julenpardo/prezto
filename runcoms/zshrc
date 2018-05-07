@@ -12,8 +12,15 @@ fi
 
 # Customize to your needs...
 export TERM="xterm-256color"
+
+# Pure
 autoload -U promptinit; promptinit
-prompt pure
+prompt julen_pure
+
+export PURE_GIT_COLOR=247
+export PURE_PATH_COLOR=081
+PROMPT='%(12V.%F{242}%12v%f .)%(?.%F{177}.%F{203})❯❯❯%f '
+
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
