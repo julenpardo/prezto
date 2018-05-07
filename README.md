@@ -1,30 +1,35 @@
-Prezto — Instantly Awesome Zsh
-==============================
+# Pezto — Instantly Awesome Zsh
 
 Prezto is the configuration framework for [Zsh][1]; it enriches the command line
 interface environment with sane defaults, aliases, functions, auto completion,
 and prompt themes.
 
-Installation
-------------
+## Custom fork
+
+This fork is customized in the following way:
+
+* Using [pure](https://github.com/sindresorhus/pure) theme.
+* Custom styles.
+* [fzf](https://github.com/junegunn/fzf) support (needs to be installed).
+
+## Installation
 
 Prezto will work with any recent release of Zsh, but the minimum required
 version is 4.3.17.
 
 Clone the repository and execute `install.sh`. This script will:
 
- - Install Zsh, if it wasn't installed already.
- - Create all the configs.
- - Set it as default shell.
+* Install Zsh, if it wasn't installed already.
+* Create all the configs.
+* Set it as default shell.
 
 ### Troubleshooting
 
-If you are not able to find certain commands after switching to *Prezto*,
-modify the `PATH` variable in *~/.zprofile* then open a new Zsh terminal
+If you are not able to find certain commands after switching to _Prezto_,
+modify the `PATH` variable in _~/.zprofile_ then open a new Zsh terminal
 window or tab.
 
-Updating
---------
+## Updating
 
 Run `zprezto-update` to automatically check if there is an update to zprezto.
 If there are no file conflicts, zprezto its submodules will be automatically
@@ -39,42 +44,38 @@ git pull
 git submodule update --init --recursive
 ```
 
-Usage
------
+## Usage
 
 Prezto has many features disabled by default. Read the source code and
 accompanying README files to learn of what is available.
 
 ### Modules
 
-  1. Browse */modules* to see what is available.
-  2. Load the modules you need in *~/.zpreztorc* then open a new Zsh terminal
-     window or tab.
+1.  Browse _/modules_ to see what is available.
+2.  Load the modules you need in _~/.zpreztorc_ then open a new Zsh terminal
+    window or tab.
 
 ### Themes
 
-  1. For a list of themes, type `prompt -l`.
-  2. To preview a theme, type `prompt -p name`.
-  3. Load the theme you like in *~/.zpreztorc* then open a new Zsh terminal
-     window or tab.
+1.  For a list of themes, type `prompt -l`.
+2.  To preview a theme, type `prompt -p name`.
+3.  Load the theme you like in _~/.zpreztorc_ then open a new Zsh terminal
+    window or tab.
 
-     ![sorin theme][2]
+    ![sorin theme][2]
 
-Customization
--------------
+## Customization
 
 The project is managed via [Git][3]. It is highly recommended that you fork this
 project; so, that you can commit your changes and push them to [GitHub][4] to
 not lose them. If you do not know how to use Git, follow this [tutorial][5] and
 bookmark this [reference][6].
 
-Resources
----------
+## Resources
 
 The [Zsh Reference Card][7] and the [zsh-lovers][8] man page are indispensable.
 
-License
--------
+## License
 
 This project is licensed under the MIT License.
 

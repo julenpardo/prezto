@@ -159,9 +159,14 @@ zstyle ':prezto:module:prompt' theme 'pure'
 # Set syntax highlighting styles.
  zstyle ':prezto:module:syntax-highlighting' styles \
    'command' 'fg=118' \
+   'precommand' 'fg=118' \
    'builtin' 'fg=118' \
    'function' 'fg=118' \
    'alias' 'fg=118' \
+   'path' 'fg=252' \
+   'path_pathseparator' 'fg=230' \
+   'commandseparator' 'fg=117' \
+   'unknown-token' 'fg=197' \
    'assign' 'fg=33'
 #
 # Set syntax pattern styles.
