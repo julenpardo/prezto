@@ -1,0 +1,36 @@
+#
+# Defines aliases.
+#
+# Authors:
+#   Julen Pardo <julen.pardo@outlook.es>
+#
+# Some aliases are taken from https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/common-aliases/common-aliases.plugin.zsh
+#
+
+# Apt
+alias apt-up='sudo apt-get update'
+alias apt-in='apt-up && sudo apt-get install'
+alias apt-re='sudo apt-get remove'
+alias apt-se='sudo apt-cache search'
+
+# Files, directories, etc.
+alias md='mkdir -pv'
+alias t='tail -f'
+alias ln='ln -s'
+alias jsonf='python -m json.tool'
+alias lll='ls -al'
+alias untar='tar -zxvf'
+alias cgit='cd ~/git'
+
+# Disk
+alias dud='du -d 1 -h'
+alias duf='du -sh *'
+
+# Find
+alias fif='find -type f -name'
+alias fid='find -type d -name'
+
+# Misc
+alias c='clear'
+alias tmuxx='unset TMUX && tmux'
+alias zshreload='source ~/.zshrc'
