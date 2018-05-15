@@ -78,6 +78,6 @@ fi
 #
 # Tmux
 #
-if [[ "$TMUX" == "" ]]; then
-    tmux
+if [[ "$TMUX" == "" ]]; then # Don't try to run tmux within tmux
+    tmux new-session -A -s main
 fi
