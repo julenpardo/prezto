@@ -153,7 +153,6 @@ zstyle ':prezto:module:prompt' theme 'julen_pure'
    'brackets' \
    'pattern' \
    'line' \
-   'cursor' \
    'root'
 
 # Set syntax highlighting styles.

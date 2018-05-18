@@ -40,16 +40,8 @@ function sha512() {
 # Docker
 #
 
-function docker-bash() {
+function dbash() {
     docker exec -it $1 /bin/bash
-}
-
-function docker-rmi-none() {
-    docker rmi -f $(docker images -q -f "dangling=true")
-}
-
-function docker-rm-all() {
-    docker rm -f $(docker ps -aq)
 }
 
 #
