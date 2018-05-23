@@ -23,3 +23,13 @@ PROMPT='%(12V.%F{242}%12v%f .)%(?.%F{177}.%F{203})❯❯❯%f '
 # Source aliases, functions, etc.
 [ -f ~/.zaliases ] && source ~/.zaliases
 [ -f ~/.zfunctions ] && source ~/.zfunctions
+
+# Direnv
+eval "$(direnv hook zsh)"
+
+# Autojump
+[ -f /usr/share/autojump/autojump.zsh ] && source /usr/share/autojump/autojump.zsh
+
+# Thefuck
+unsetopt CORRECT # Disable command correction
+eval $(thefuck --alias)

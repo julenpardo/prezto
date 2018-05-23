@@ -24,6 +24,8 @@ alias cgit='cd ~/git'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias back='cd $OLDPWD'
+# For bd: https://github.com/vigneshwaranr/bd
+alias bd='. bd -si'
 
 # Compression
 alias tar='tar -cvf'
