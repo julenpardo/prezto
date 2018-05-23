@@ -21,8 +21,8 @@ PROMPT='%(12V.%F{242}%12v%f .)%(?.%F{177}.%F{203})❯❯❯%f '
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Source aliases, functions, etc.
-[ -f ~/.zaliases ] && source ~/.zaliases
-[ -f ~/.zfunctions ] && source ~/.zfunctions
+[ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.functions ] && source ~/.functions
 
 # Direnv
 eval "$(direnv hook zsh)"
