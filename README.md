@@ -4,13 +4,16 @@ Prezto is the configuration framework for [Zsh][1]; it enriches the command line
 interface environment with sane defaults, aliases, functions, auto completion,
 and prompt themes.
 
-## Custom fork
+## Theme
 
 This fork is customized in the following way:
 
-* Using [pure](https://github.com/sindresorhus/pure) theme.
-* Custom styles.
-* [fzf](https://github.com/junegunn/fzf) support (needs to be installed).
+The used theme is this [pure fork](https://github.com/julenpardo/pure), allowing
+custom colors for path and Git info.
+
+## Shell tools
+
+The list of the used shell tools can be found [here](https://gist.github.com/julenpardo/4e57765c59de10fca8d32961800d0055).
 
 ## Installation
 
