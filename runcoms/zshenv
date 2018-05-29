@@ -20,3 +20,6 @@ export PURE_PATH_COLOR=081
 
 # ripgrep config file
 export RIPGREP_CONFIG_PATH=~/.ripgreprc
+
+# fzf
+export FZF_CTRL_T_COMMAND='rg --files'
