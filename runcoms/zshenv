@@ -23,3 +23,11 @@ export RIPGREP_CONFIG_PATH=~/.ripgreprc
 
 # fzf
 export FZF_CTRL_T_COMMAND='rg --files'
+
+# k
+export K_CUSTOM_COLOR_DI='0;94'
+export K_CUSTOM_COLOR_EX='0;91'
+export K_CUSTOM_COLOR_LN='0;95'
+export K_CUSTOM_OWNER_COLOR=249
+export K_CUSTOM_GROUP_COLOR=249
+

@@ -33,3 +33,16 @@ eval "$(direnv hook zsh)"
 # Thefuck
 unsetopt CORRECT # Disable command correction
 eval $(thefuck --alias)
+
+#################
+# Zplug plugins #
+#################
+source ~/.zplug/init.zsh
+
+### Plugin definition ###
+
+# k (file listing)
+zplug "supercrabtree/k"
+
+### Load plugins ###
+zplug load

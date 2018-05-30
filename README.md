@@ -15,6 +15,12 @@ custom colors for path and Git info.
 
 The list of the used shell tools can be found [here](https://gist.github.com/julenpardo/4e57765c59de10fca8d32961800d0055).
 
+## Plugins
+
+Plugins are managed with [zplug](https://github.com/zplug/zplug).
+
+* [k](https://github.com/supercrabtree/k): more readable and colorful listing.
+
 ## Installation
 
 Prezto will work with any recent release of Zsh, but the minimum required
