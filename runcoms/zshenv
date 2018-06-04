@@ -22,7 +22,8 @@ export PURE_PATH_COLOR=081
 export RIPGREP_CONFIG_PATH=~/.ripgreprc
 
 # fzf
-export FZF_CTRL_T_COMMAND='rg --files'
+export FZF_DEFAULT_COMMAND='rg --files'
+export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 
 # k
 export K_CUSTOM_COLOR_DI='0;94'
