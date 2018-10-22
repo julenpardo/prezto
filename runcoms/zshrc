@@ -41,8 +41,6 @@ source ~/.zplug/init.zsh
 
 ### Plugin definition ###
 
-# k (file listing)
-zplug "supercrabtree/k"
 
 ### Load plugins ###
-zplug load
+#zplug load
