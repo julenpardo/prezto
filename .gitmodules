@@ -25,3 +25,6 @@
 [submodule "modules/prompt/external/julen-pure"]
 	path = modules/prompt/external/julen-pure
 	url = https://github.com/julenpardo/pure
+[submodule "modules/prompt/external/powerlevel9k"]
+	path = modules/prompt/external/powerlevel9k
+	url = https://github.com/Powerlevel9k/powerlevel9k
